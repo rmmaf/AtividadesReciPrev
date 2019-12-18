@@ -7,3 +7,10 @@ content(request, as = 'text', encoding = 'utf-8') %>%
   read_html() %>% 
   html_nodes("tbody tr td a") %>%
   xml_attr("href") -> links
+links <- unique(links)
+tabela <- content(request, as = 'text', encoding = 'utf-8') %>% 
+          read_html() %>% 
+          html_nodes('table') %>%
+          html_table()
+nome <- tabela[[1]][["Razão Social"]]
+
