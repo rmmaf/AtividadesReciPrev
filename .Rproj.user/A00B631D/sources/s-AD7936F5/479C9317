@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "191070012",
+    "hash" : "0",
     "id" : "479C9317",
-    "lastKnownWriteTime" : 1576726604,
-    "last_content_update" : 1576726604774,
+    "lastKnownWriteTime" : 1576779802,
+    "last_content_update" : 1576779802851,
     "path" : "~/FinsAcadêmicos/AtividadesReciPrev/webScrap.R",
     "project_path" : "webScrap.R",
     "properties" : {
-        "cursorPosition" : "16,32",
-        "scrollLine" : "1"
+        "cursorPosition" : "27,0",
+        "scrollLine" : "8"
     },
     "read_only" : false,
     "read_only_alternatives" : [

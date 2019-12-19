@@ -24,3 +24,4 @@ for (i in 1:422) {
 }
 finalTable <- data.frame("Razão Social" = nome, "Resultado Bruto 1" = bruto1, "Resultado Bruto 2" = bruto2)
 write.csv(finalTable, file = "TabelaB3.csv", row.names = FALSE)
+
