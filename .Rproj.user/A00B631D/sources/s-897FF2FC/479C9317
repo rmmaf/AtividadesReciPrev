@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576707277858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "834170699",
+    "id" : "479C9317",
+    "lastKnownWriteTime" : 1576717047,
+    "last_content_update" : 1576717047703,
+    "path" : "~/FinsAcadêmicos/AtividadesReciPrev/webScrap.R",
+    "project_path" : "webScrap.R",
+    "properties" : {
+        "cursorPosition" : "25,0",
+        "scrollLine" : "10"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
