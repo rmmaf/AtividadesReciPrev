@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576726872225.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "66971824",
+    "id" : "9C9FA852",
+    "lastKnownWriteTime" : 1576746568,
+    "last_content_update" : 1576746568743,
+    "path" : "~/FinsAcadêmicos/AtividadesReciPrev/grafico.R",
+    "project_path" : "grafico.R",
+    "properties" : {
+        "cursorPosition" : "33,35",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
