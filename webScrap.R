@@ -14,12 +14,13 @@ tabela <- content(request, as = 'text', encoding = 'utf-8') %>%
   html_nodes('table') %>%
   html_table()
 nome <- tabela[[1]][["Razão Social"]]
-bruto1 <- vector(mode = "double", length = 422)
-bruto2 <- vector(mode = "double", length = 422)
+bruto1 <- vector(mode = "character", length = 422)
+bruto2 <- vector(mode = "character", length = 422)
+
 for (i in 1:422) {
   valuesAux <- getValues(paste0("http://bvmf.bmfbovespa.com.br/cias-listadas/empresas-listadas/", links[i]))
   bruto1[i] <- valuesAux[1]
   bruto2[i] <- valuesAux[2]
 }
-finalTable <- data.frame("Razão Social" = nome, "Resultado Bruto 2018" = bruto2, "Resultado Bruto 2019" = bruto1)
+finalTable <- data.frame("Razão Social" = nome, "Resultado Bruto 1" = bruto1, "Resultado Bruto 2" = bruto2)
 write.csv(finalTable, file = "TabelaB3.csv", row.names = FALSE)
