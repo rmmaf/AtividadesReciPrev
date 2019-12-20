@@ -1,0 +1,114 @@
+:root {
+    --form_bg: #ffffff;
+    --input_bg: #e5e5e5;
+    --submit_bg: #1fcc44;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* make the body full height*/
+    height: 100vh;
+    /* set our custom font */
+    font-family: "Roboto", sans-serif;
+    /* create a linear gradient*/
+    background-image: linear-gradient( 109.6deg, rgba(31, 179, 237, 1) 11.2%, rgba(17, 106, 197, 1) 91.1%);
+    display: flex;
+}
+
+a {
+    /* remove default underline */
+    text-decoration: none;
+    color: var(--submit_bg);
+    font-weight: bold;
+}
+
+#form_wrapper {
+    width: 500px;
+    height: 700px;
+    /* this will help us center it*/
+    margin: auto;
+    background-color: var(--form_bg);
+    border-radius: 50px;
+    /* make it a grid container*/
+    display: grid;
+    /* with two columns of same width*/
+    grid-template-columns: 1fr;
+    /* with a small gap in between them*/
+    grid-gap: 20px;
+    padding: 10% 5%;
+    /* add some padding around */
+}
+
+.input_container {
+    background-color: var(--input_bg);
+    /* vertically align icon and text inside the div*/
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.input_container,
+#input_submit {
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.input_field {
+    color: black;
+    background-color: inherit;
+    width: 90%;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+#input_submit {
+    /* submit button has a different color and different padding */
+    background-color: var(--submit_bg);
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    border-radius: 20px;
+    padding: 4%;
+    background: #f5f5f5;
+    width: 90vw;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.card_user {
+    box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.5);
+    margin: 1% auto;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2%;
+    border-radius: 10px;
+    width: 90%;
+}
+
+#deleteButton {
+    color: red;
+}
+
+@media only screen and (max-width: 700px) {
+    .card_user {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

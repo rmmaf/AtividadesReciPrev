@@ -1,0 +1,4 @@
+Instrução:
+1- Abrir Servidor "Apache" na porta 80 (utlizando XAMPP ou derivados )
+2- Salvar diretório do programa na pasta "httpdocs" do servidor Apache
+3- Acessar localhost no diretório criado iniciando "login.php" (digitar no navegaor localhost/diretorio/login.php, onde "diretorio" é a pasta do projeto)
